@@ -1,0 +1,6 @@
+{
+  "name": "Lumina Luxe",
+  "description": "A luxury editorial and clinically proven haircare & modest wear showcase with secure real-time content editing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

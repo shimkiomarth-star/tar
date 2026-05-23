@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Hanken Grotesk", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  
+  --color-brand-primary: #001610;
+  --color-brand-secondary: #775a19;
+  --color-brand-emerald-light: #46645b;
+  --color-brand-cream: #f9f9f9;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #fcfcfc;
+  }
+  
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom scrollbar to match the high-end minimalist theme */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #001610;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #46645b;
+}
